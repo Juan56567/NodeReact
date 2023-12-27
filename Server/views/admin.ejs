@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/createUser" method="post">
+      <label for="nameA">Name</label>
+      <input autocomplete="off" type="text" id="name" name="name" />
+      <label for="userName">userName</label>
+      <input autocomplete="off" type="text" id="userName" name="userName" />
+      <label for="rol">Rol</label>
+      <select name="rol" id="rol">
+        <option value="financiero">financiero</option>
+        <option value="tecnico">tecnico</option>
+        <option value="ingenieria">ingenieria</option>
+        <option value="almance">almance</option>
+        <option value="admin">admin</option>
+      </select>
+      <label for="password">Password</label>
+      <input autocomplete="off" type="password" name="password" id="password" />
+      <button type="submit">Create</button>
+    </form>
+    <a href="/">Back</a>
+  </body>
+</html>
